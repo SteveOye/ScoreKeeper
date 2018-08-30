@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="8dp"
+    android:background="@drawable/pitch"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/afb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="American Football"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Keeper"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="8dp"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/homeTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="#ffffff"
+        android:hint="Enter Home Team"/>
+
+    <EditText
+        android:id="@+id/awayTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="#ffffff"
+        android:layout_marginTop="8dp"
+        android:hint="Enter Away Team"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Start Recording"/>
+
+</LinearLayout>
