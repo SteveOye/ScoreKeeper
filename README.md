@@ -10,7 +10,7 @@ Android Studio
 
 ## Authors
 
-* **Stephen Oyebanji** - *Initial work* - [PurpleBooth](https://github.com/SteveOye)
+* **Stephen Oyebanji** - *Initial work* - [Steve Oye](https://github.com/SteveOye)
 
 ## License
 
