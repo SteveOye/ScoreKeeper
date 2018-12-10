@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">America Football Score keeper</string>
+    <string name="app_name">Score Keeper</string>
+    <string name="score">0</string>
+    <string name="safety">Safety 2pts</string>
+    <string name="touch_down">Touch Down 6pts</string>
+    <string name="field_goal">Field Goal 3pts</string>
+    <string name="extra_points">Extra points 1pts</string>
+    <string name="home">Home</string>
+    <string name="vs">vs</string>
+    <string name="guest">Guest</string>
+    <string name="todo">TODO</string>
+    <string name="title">American Football</string>
+    <string name="sub_title">Score Keeper</string>
+    <string name="hintHome">Enter Home Team</string>
+    <string name="hintGuest">Enter Guest Team</string>
+    <string name="start">Start Scoring</string>
 </resources>

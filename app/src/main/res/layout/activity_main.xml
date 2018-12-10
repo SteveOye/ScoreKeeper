@@ -9,15 +9,10 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:src="@drawable/afb"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="American Football"
+        android:text="@string/title"
         android:textSize="32sp"
         android:textColor="#ffffff"
         android:textAllCaps="true"/>
@@ -25,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score Keeper"
+        android:text="@string/sub_title"
         android:textColor="#ffffff"
         android:layout_marginBottom="8dp"
         android:textSize="24sp"/>
@@ -33,19 +28,21 @@
     <EditText
         android:id="@+id/homeTeam"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="8dp"
         android:inputType="text"
-        android:background="#ffffff"
-        android:hint="Enter Home Team"/>
+        android:background="#84ffffff"
+        android:hint="@string/hintHome"/>
 
     <EditText
-        android:id="@+id/awayTeam"
+        android:id="@+id/guestTeam"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:paddingLeft="8dp"
         android:inputType="text"
-        android:background="#ffffff"
+        android:background="#84ffffff"
         android:layout_marginTop="8dp"
-        android:hint="Enter Away Team"/>
+        android:hint="@string/hintGuest"/>
 
     <Button
         android:id="@+id/start"
@@ -57,6 +54,6 @@
         android:layout_marginRight="48dp"
         android:textSize="18sp"
         android:textColor="#ffffff"
-        android:text="Start Recording"/>
+        android:text="@string/start"/>
 
 </LinearLayout>
